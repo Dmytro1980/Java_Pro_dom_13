@@ -47,7 +47,6 @@ public class Phonebook {
     }
 
     public List<PhonebookEntry> findAllEntries(String name) {
-        String s = "";
         List<PhonebookEntry> list = new ArrayList<>();
         for (PhonebookEntry entry : this.entryList) {
             if (entry.getName().equals(name)) {

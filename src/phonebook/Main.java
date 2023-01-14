@@ -12,7 +12,7 @@ public class Main {
         book.add("Sam", "707-555-1314");
         book.add("John", "333-222-0010");
 
-        // методы find() и finfAll() возвращают строку
+        // методы find() и findAll() возвращают строку
         System.out.println("find() Tom John Alice");
 
         System.out.println(book.find("Tom"));
